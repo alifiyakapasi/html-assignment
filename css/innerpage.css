@@ -1,0 +1,49 @@
+@media screen and (max-width: 992px) {
+    .nav1 {
+        display: none;
+    }
+}
+
+.nav1 {
+    padding-left: 25px;
+    background: #FFFFFF;
+    opacity: 1;
+    padding-top: 10px;
+}
+
+.tab-styles {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    background: transperent;
+    border: none;
+    color: #999090;
+}
+
+.tab-styles-active {
+    color: #C8242F;
+    border-bottom: #C8242F 2px solid;
+}
+
+#specifyColor {
+    accent-color: red;
+}
+
+input[type=checkbox] {
+    accent-color: rgb(235, 34, 34);
+}
+
+.nav-pills .nav-link.active {
+    color: #C8242F;
+    background-color: #FFFFFF;
+}
+
+.nav-link {
+    color: #ADADAD;
+}
+
+.nav-tabs .nav-link.active {
+    color: #C8242F;
+    background-color: #FFFFFF;
+}
