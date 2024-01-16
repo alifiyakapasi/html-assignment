@@ -1,23 +1,22 @@
+@media (min-width:992px) and (max-width:1358px) {
+    .boxes {
+        width: 152px;
+    }
+    .card-title{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+}
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
 
-        @media (min-width:992px) and (max-width:1358px) {
-            .boxes {
-                width: 152px;
-            }
-            .card-title{
-                padding-top: 10px;
-                font-size: 14px;
-            }
-            .card-text{
-                font-size: 12px;
-            }
-        }
-        table {
-            display: block;
-            overflow-x: auto;
-            white-space: nowrap;
-        }
-
-        table tbody {
-            display: table;
-            width: 100%;
-        }
+table tbody {
+    display: table;
+    width: 100%;
+}

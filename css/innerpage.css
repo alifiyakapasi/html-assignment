@@ -1,44 +1,3 @@
-@media screen and (max-width: 992px) {
-    .nav1 {
-        display: none;
-    }
-}
-
-.nav1 {
-    padding-left: 25px;
-    background: #FFFFFF;
-    opacity: 1;
-    padding-top: 10px;
-}
-
-.tab-styles {
-    margin-left: 30px;
-    margin-top: 20px;
-    width: 70px;
-    height: 70px;
-    background: transperent;
-    border: none;
-    color: #999090;
-}
-
-.tab-styles-active {
-    color: #C8242F;
-    border-bottom: #C8242F 2px solid;
-}
-
-#specifyColor {
-    accent-color: red;
-}
-
-input[type=checkbox] {
-    accent-color: rgb(235, 34, 34);
-}
-
-.nav-pills .nav-link.active {
-    color: #C8242F;
-    background-color: #FFFFFF;
-}
-
 .nav-link {
     color: #ADADAD;
 }
@@ -46,4 +5,31 @@ input[type=checkbox] {
 .nav-tabs .nav-link.active {
     color: #C8242F;
     background-color: #FFFFFF;
+}
+#radio1, #radio2, #checkbox1, #checkbox2 {
+    accent-color: red;
+}
+label{
+    font-size: 16px;
+}
+.labelholder {
+    padding:10px;
+    pointer-events: none;
+    position:absolute;
+    left:0;
+    top:0;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity:0.5;
+    background: #ffffff;
+}
+
+.holder {
+    padding:10px;
+}
+
+.holder:focus + .labelholder, .holder:not(:placeholder-shown) + .labelholder {
+    opacity:1;
+    transform: scale(0.75) translateY(-80%) translateX(-15px);
 }
